@@ -57,7 +57,7 @@ src/
 
 1. Clone the repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/Shashiverm/rise-of-magadh
 ```
 
 2. Install dependencies
@@ -136,4 +136,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-Project Link: [https://github.com/yourusername/rise-of-magadh](https://github.com/Shashiverm/rise-of-magadh)
+Project Link: [Live](https://github.com/Shashiverm/rise-of-magadh)

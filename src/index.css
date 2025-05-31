@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  scroll-behavior: smooth;
+}
+
+/* Custom animation classes */
+@layer utilities {
+  .animate-fade-in {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .animate-on-scroll {
+    transition: opacity 0.8s ease, transform 0.8s ease;
+    transform: translateY(20px);
+  }
+}
+
+@layer base {
+  body {
+    @apply font-sans text-stone-800;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+.prose {
+  @apply text-stone-700;
+}
+
+.prose p {
+  @apply mb-4;
+}
+
+.prose h3 {
+  @apply text-xl font-serif font-bold text-amber-900 mb-4;
+}
